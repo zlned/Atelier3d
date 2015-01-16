@@ -3,13 +3,17 @@
 <head>
 </head>
 <bod>
-	<script type="text/javascript">
-		
-		document.getElementById('<?php $_GET['id_face']?>').value = <?php $_GET['vers']?>;
-	</script>
+	
+		 <?php
+if (isset ($_GET['vers']))
+{
+$valeur =$_GET['vers'] ;
+}
+	?>
+	
 <div id="container">
   <div id="cube" class="animate" height="50" width="20">
-	  <div id="1"><h1><p>wooooooh</p></h1></div>
+	  <div id="1"><h1><p>hello the world</p></h1></div>
     <div id="2"><p>wooooooh</p></div>
     <div id="3"><p>wooooooh</p></div>
     <div id="4"><p>wooooooh</p></div>

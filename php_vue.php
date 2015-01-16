@@ -42,6 +42,12 @@
 	<div class="stars-front"></div>
 	<div class="bg center"></div>
 	<div id="tagsphere" data-scalemode="width" data-nativeanimation="true">
+				 <?php
+if (isset ($_GET['vers']))
+{
+$valeur =$_GET['vers'] ;
+}
+	?>
 			<ul>
 				<li> 
 					<div id="container">
@@ -50,7 +56,7 @@
 							
 						<div id="stage">
     <div id="spinner">
-        <a href="affichage.php?id=11&id_cube=1"><div class="face1" id="11">TEST</div></a>
+        <a href="tobdd.php"><div class="face1" id="11"><?php echo $valeur ;?></div></a>
         <a href="affichage.php?id=12"><div class="face2" id="12">2</div></a>
         <a href="affichage.php?id=13"><div class="face3" id="13">3</div></a>
         <a href="affichage.php?id=14"><div class="face4" id="14">4</div></a>

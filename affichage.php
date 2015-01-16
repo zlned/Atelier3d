@@ -72,7 +72,7 @@ echo $id_cube= $_GET["id_cube"];
 	<div id="stage">
     <div id="spinner">
    <div class="face1" id="<?php echo $identifiant;?>">
-		<form method="get" action="tobdd.php">
+		<form method="get" action="php_vue.php">
 			
 			
 			<input type="hidden" name="id_cube" value="<?php echo $identifiant ?>" />
